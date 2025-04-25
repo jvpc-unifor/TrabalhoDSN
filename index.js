@@ -15,8 +15,8 @@ app.get("/moto", function(req,res){
     res.send("<h1>Lista de motos!</h1>");
 })
 
-app.get("/caminhao", function(req,res){
-    res.send("<h1>Lista de caminhão!</h1>");
+app.get("/bicicleta", function(req,res){
+    res.send("<h1>Lista de bicicleta!</h1>");
 })
 
 app.listen(process.env.PORT ?? 3000,function(erro){  // cria a aplicação na porta 4000
